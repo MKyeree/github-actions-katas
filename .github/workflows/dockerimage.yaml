@@ -3,7 +3,7 @@ on: push
 env: # Set the secret as an input
   docker_username: mkyere
   docker_password: Phoe.nix222
-  GIT_COMMIT: dockerimage
+  GIT_COMMIT: dockerimage.sha
 jobs:
   Clone-down:
     name: Clone down repo
